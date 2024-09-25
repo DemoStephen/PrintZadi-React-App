@@ -1,0 +1,9 @@
+.header {
+  min-height: 90vh;
+  min-height: 90svh;
+  background-image: url("../../assets/Images/jpeg/illlustration1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 5%;
+}

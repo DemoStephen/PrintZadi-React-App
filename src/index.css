@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("./assets/fonts/Outfit/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.125rem;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
