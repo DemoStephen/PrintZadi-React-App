@@ -1,14 +1,64 @@
 .header {
-  min-height: 90vh;
-  min-height: 90svh;
+  min-height: 85vh;
+  min-height: 85svh;
   background-image: url("../../assets/Images/jpeg/illlustration1.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 3rem 5%;
+  padding: 5rem 5%;
   display: flex;
   align-items: end;
   align-content: end;
   justify-content: end;
   flex-direction: column;
+}
+.header_text {
+  width: 40%;
+  color: white; /*Would change*/
+  text-align: end;
+  font-size: 2rem;
+}
+.header_text img {
+  width: 20%;
+}
+.header_text h1 {
+  font-size: 3.5rem;
+}
+.header_cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0 0 0;
+}
+.header_cta a {
+  color: white;
+}
+.header_ctas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.header_ctas img {
+  width: 4rem;
+}
+@media (max-width: 60rem) {
+  .header_text {
+    width: 100%;
+    text-align: center;
+    color: rgb(39, 57, 139);
+  }
+  .header_text img {
+    display: none;
+  }
+  .header {
+    min-height: 50vh;
+    min-height: 50svh;
+  }
+  .header_cta {
+    gap: 1rem;
+    width: 100%;
+  }
 }

@@ -5,7 +5,7 @@ import styles from "./Header.module.css";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <section>
+      <section className={styles.header_text}>
         <img src={arrow} alt="arrow" className="arrow" />
         <h1>Crazy Bills?</h1>
         <p>
@@ -14,17 +14,17 @@ export default function Header() {
         </p>
       </section>
 
-      <div className="">
+      <div className={styles.header_cta}>
         <a href="#">
-          <div className="">
+          <div className={styles.header_ctas}>
             <img src={quote} alt="quote" />
-            <p className="">Get a Quote</p>
+            <p>Get a Quote</p>
           </div>
         </a>
         <a href="#">
-          <div className="d-flex header_container_cta">
+          <div className={styles.header_ctas}>
             <img src={signUp} alt="sign up" />
-            <p className="sec-one-link">Sign Up</p>
+            <p>Sign Up</p>
           </div>
         </a>
       </div>
